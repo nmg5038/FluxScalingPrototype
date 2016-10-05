@@ -2,14 +2,14 @@
 
 #=====================================================================#
 # This is a basic polynomial regression prototype.  It is basic and   #
-#	uses the stock market pricing of a random ticker.   The dataset   #
-#	is oriented in time from most recent to the first price.          #
-#	This is just to organize a new algorithm for some other project.  #
-#	In general, it will make a random training set and CV set and     #
-#	will find the best parameter fit over many different realizations #
-#	This technique is similar to Monte Carlo/K-folds and bootstrapping#
-#		Created by: nmg5038											  #
-#		Created on: 10/5/16											  #
+#   uses the stock market pricing of a random ticker.   The dataset   #
+#   is oriented in time from most recent to the first price.          #
+#   This is just to organize a new algorithm for some other project.  #
+#   In general, it will make a random training set and CV set and     #
+#   will find the best parameter fit over many different realizations #
+#   This technique is similar to Monte Carlo/K-folds and bootstrapping#
+#       Created by: nmg5038                                           #
+#       Created on: 10/5/16                                           #
 #=====================================================================#
 
 def datasetCreation(whatMonth,data,data2,totalN, TrainingToCV=.8):
